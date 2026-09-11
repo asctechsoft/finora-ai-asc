@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Finora</string>
+    <string name="app_tagline">Nói. Ghi. Lập kế hoạch. Sống.</string>
+    <string name="brand_name">ASC Finance AI</string>
+
+    <!-- Common -->
+    <string name="continue_">Tiếp tục</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="get_started">Bắt đầu</string>
+    <string name="not_now">Để sau</string>
+    <string name="cancel">Huỷ</string>
+    <string name="save">Lưu</string>
+    <string name="see_all">Xem tất cả</string>
+    <string name="add_another">Thêm giao dịch khác</string>
+    <string name="coming_soon">Sẽ có trong bản cập nhật tới</string>
+    <string name="today">Hôm nay</string>
+    <string name="yesterday">Hôm qua</string>
+    <string name="earlier">Trước đó</string>
+    <string name="optional">Tuỳ chọn</string>
+    <string name="unknown">Không rõ</string>
+
+    <!-- Greeting -->
+    <string name="greeting_morning">Chào buổi sáng</string>
+    <string name="greeting_afternoon">Chào buổi chiều</string>
+    <string name="greeting_evening">Chào buổi tối</string>
+
+    <!-- Splash -->
+    <string name="splash_loading">Đang tải…</string>
+
+    <!-- Welcome -->
+    <string name="welcome_subtitle">Người bạn đồng hành AI cho một ngày mai an tâm và sung túc hơn.</string>
+    <string name="benefit_talk">Nói</string>
+    <string name="benefit_talk_sub">với AI của bạn</string>
+    <string name="benefit_track">Ghi</string>
+    <string name="benefit_track_sub">chi tiêu của bạn</string>
+    <string name="benefit_plan">Lập</string>
+    <string name="benefit_plan_sub">kế hoạch mục tiêu</string>
+    <string name="welcome_footer">Tham gia cộng đồng toàn cầu xây dựng cuộc sống tài chính tốt hơn.</string>
+
+    <!-- Locale -->
+    <string name="locale_setup">Cùng thiết lập nào</string>
+    <string name="locale_title">Bạn ở đâu\nvà dùng ngôn ngữ nào?</string>
+    <string name="locale_subtitle">Điều này giúp cá nhân hoá trải nghiệm, bản địa hoá nội dung và đưa ra thông tin tài chính phù hợp.</string>
+    <string name="country_region">Quốc gia / Khu vực</string>
+    <string name="search_countries">Tìm quốc gia...</string>
+    <string name="show_more_countries">Xem thêm quốc gia  ↓</string>
+    <string name="language">Ngôn ngữ</string>
+
+    <!-- Currency -->
+    <string name="currency_title">Tiền tệ chính của bạn?</string>
+    <string name="currency_subtitle">Chúng tôi sẽ dùng đây làm tiền tệ chính để theo dõi, báo cáo và phân tích AI. Bạn có thể thêm tiền tệ khác sau.</string>
+    <string name="search_currencies">Tìm tiền tệ...</string>
+
+    <!-- Life Mode -->
+    <string name="life_mode_title">Chế độ cuộc sống của bạn?</string>
+    <string name="life_mode_subtitle">Điều này giúp AI đưa ra lời khuyên, so sánh và kế hoạch phù hợp hơn.</string>
+    <string name="lifemode_solo_title">Độc thân</string>
+    <string name="lifemode_solo_sub">Chỉ mình tôi</string>
+    <string name="lifemode_dating_title">Đang hẹn hò</string>
+    <string name="lifemode_dating_sub">Cùng nhau khám phá</string>
+    <string name="lifemode_living_title">Sống chung</string>
+    <string name="lifemode_living_sub">Cùng một nhà</string>
+    <string name="lifemode_married_title">Đã kết hôn</string>
+    <string name="lifemode_married_sub">Bạn đời</string>
+    <string name="lifemode_child_title">Có con nhỏ</string>
+    <string name="lifemode_child_sub">Hành trình làm cha mẹ</string>
+    <string name="lifemode_parents_title">Sống với bố mẹ</string>
+    <string name="lifemode_parents_sub">Đa thế hệ</string>
+    <string name="lifemode_custom_title">Tuỳ chỉnh</string>
+    <string name="lifemode_custom_sub">Cho chúng tôi biết hoàn cảnh của bạn</string>
+    <string name="lifemode_solo_chip">Độc thân</string>
+    <string name="lifemode_dating_chip">Hẹn hò</string>
+    <string name="lifemode_living_chip">Sống chung</string>
+    <string name="lifemode_married_chip">Kết hôn</string>
+    <string name="lifemode_family_chip">Gia đình</string>
+    <string name="lifemode_custom_chip">Tuỳ chỉnh</string>
+
+    <!-- Income -->
+    <string name="income_title">Thiết lập thu nhập của bạn</string>
+    <string name="income_subtitle">Thêm các nguồn thu nhập thường xuyên. Điều này giúp tạo kế hoạch cá nhân hoá và gợi ý chính xác.</string>
+    <string name="add_income_source">+  Thêm nguồn thu nhập</string>
+    <string name="total_monthly_income">Tổng thu nhập hàng tháng</string>
+    <string name="income_tip">Tuyệt! Thu nhập ổn định là nền tảng vững chắc cho mục tiêu của bạn.</string>
+    <string name="income_new_source">Nguồn mới</string>
+
+    <!-- Goals -->
+    <string name="goals_title">Mục tiêu của bạn là gì?</string>
+    <string name="goals_subtitle">Cho chúng tôi biết điều gì quan trọng nhất. AI sẽ tạo kế hoạch cá nhân hoá giúp bạn đạt được.</string>
+    <string name="goal_emergency">Lập quỹ dự phòng</string>
+    <string name="goal_home">Mua nhà</string>
+    <string name="goal_travel">Du lịch thế giới</string>
+    <string name="goal_wealth">Gia tăng tài sản</string>
+    <string name="goal_debt">Trả hết nợ</string>
+    <string name="goal_retire">Nghỉ hưu thoải mái</string>
+    <string name="goal_other">Mục tiêu khác</string>
+    <string name="smart_plan_title">Xem trước Kế hoạch Thông minh ✨</string>
+    <string name="smart_plan_desc">Dựa trên thu nhập, mục tiêu và chế độ sống, AI sẽ tạo kế hoạch cá nhân hoá với các bước hành động, chỉ tiêu hàng tháng và thông tin chi tiết.</string>
+    <string name="create_my_plan">Tạo kế hoạch của tôi</string>
+
+    <!-- Home -->
+    <string name="this_month">Tháng này</string>
+    <string name="budget_pulse">Nhịp ngân sách</string>
+    <string name="on_track">Đúng lộ trình</string>
+    <string name="under_budget">Bạn đang dưới ngân sách 12%</string>
+    <string name="upcoming_bills">Hoá đơn sắp tới</string>
+    <string name="quick_actions">Thao tác nhanh</string>
+    <string name="switch_life_mode">Đổi chế độ sống</string>
+    <string name="safe_to_spend">Có thể chi tiêu</string>
+    <string name="safe_to_spend_shared">Có thể chi (Chung)</string>
+    <string name="safe_to_spend_joint">Có thể chi (Chung)</string>
+    <string name="safe_to_spend_household">Có thể chi (Gia đình)</string>
+    <string name="of_this_month">trên %s tháng này</string>
+
+    <!-- Home tiles -->
+    <string name="tile_income">Thu nhập</string>
+    <string name="tile_spending">Chi tiêu</string>
+    <string name="tile_savings">Tiết kiệm</string>
+    <string name="tile_expenses">Chi phí</string>
+    <string name="tile_joint_spending">Chi tiêu chung</string>
+    <string name="tile_your_share">Phần của bạn</string>
+    <string name="tile_partner_share">Phần của người ấy</string>
+    <string name="tile_shared_savings">Tiết kiệm chung</string>
+    <string name="tile_net_worth">Tài sản ròng</string>
+    <string name="tile_family_savings">Tiết kiệm gia đình</string>
+
+    <!-- Home actions -->
+    <string name="action_transfer">Chuyển khoản</string>
+    <string name="action_add_expense">Thêm chi tiêu</string>
+    <string name="action_set_goal">Đặt mục tiêu</string>
+    <string name="action_ask_ai">Hỏi AI</string>
+    <string name="action_split_bill">Chia hoá đơn</string>
+    <string name="action_set_date_goal">Mục tiêu hẹn hò</string>
+    <string name="action_split_expense">Chia chi tiêu</string>
+    <string name="action_add_bill">Thêm hoá đơn</string>
+    <string name="action_set_shared_goal">Mục tiêu chung</string>
+    <string name="action_add_goal">Thêm mục tiêu</string>
+    <string name="action_pay_off_debt">Trả nợ</string>
+    <string name="action_plan_big_purchase">Kế hoạch mua sắm lớn</string>
+    <string name="action_add_child_expense">Thêm chi tiêu cho con</string>
+    <string name="action_family_goal">Mục tiêu gia đình</string>
+    <string name="action_plan_education">Kế hoạch giáo dục</string>
+
+    <!-- Home pulse -->
+    <string name="pulse_solo_title">Bạn đang đúng lộ trình!</string>
+    <string name="pulse_solo_sub">Tiết kiệm 22% thu nhập</string>
+    <string name="pulse_dating_title">Lần trước Jordan đã trả!</string>
+    <string name="pulse_dating_sub">Bạn đã trả 3 trên 5 chi tiêu chung tháng này</string>
+    <string name="pulse_living_title">Tổ ấm thật dễ chịu</string>
+    <string name="pulse_living_sub">Chi tiêu tiền nhà &amp; tạp hoá của bạn đang đúng lộ trình.</string>
+    <string name="pulse_married_title">Xây dựng cuộc sống bạn mong muốn</string>
+    <string name="pulse_married_sub">Bạn đang tiến bộ tuyệt vời với các mục tiêu lớn.</string>
+    <string name="pulse_family_title">Đầu tư cho tương lai của các con</string>
+    <string name="pulse_family_sub">Ngân sách gia đình của bạn lành mạnh và đúng lộ trình.</string>
+
+    <!-- Bill names -->
+    <string name="bill_rent">Tiền nhà</string>
+    <string name="bill_phone_plan">Cước điện thoại</string>
+    <string name="bill_dinner_reservation">Đặt bàn ăn tối</string>
+    <string name="bill_streaming_shared">Streaming (Chung)</string>
+    <string name="bill_groceries">Tạp hoá</string>
+    <string name="bill_mortgage">Trả góp nhà</string>
+    <string name="bill_car_loan">Trả góp xe</string>
+    <string name="bill_childcare">Giữ trẻ</string>
+    <string name="bill_school_tuition">Học phí</string>
+    <string name="bill_electricity">Tiền điện</string>
+    <string name="bill_internet">Internet</string>
+    <string name="bill_payday">Ngày lương</string>
+    <string name="bill_goal_contribution">Góp mục tiêu</string>
+    <string name="bill_investments_goals">Đầu tư / Mục tiêu</string>
+
+    <!-- Bill due (params) -->
+    <string name="due_tomorrow">Ngày mai</string>
+    <string name="due_in_days">Đến hạn sau %s ngày</string>
+
+    <!-- Categories -->
+    <string name="cat_housing">Nhà ở</string>
+    <string name="cat_food">Ăn uống</string>
+    <string name="cat_transport">Di chuyển</string>
+    <string name="cat_shopping">Mua sắm</string>
+    <string name="cat_entertainment">Giải trí</string>
+    <string name="cat_health">Sức khoẻ</string>
+    <string name="cat_education">Giáo dục</string>
+    <string name="cat_bills">Hoá đơn &amp; Tiện ích</string>
+    <string name="cat_childcare">Giữ trẻ</string>
+    <string name="cat_other">Khác</string>
+    <string name="cat_salary">Lương</string>
+    <string name="cat_freelance">Freelance</string>
+    <string name="cat_investment">Đầu tư</string>
+    <string name="cat_gift">Quà tặng</string>
+    <string name="cat_other_income">Khác</string>
+
+    <!-- Quick Add -->
+    <string name="quick_add">Thêm nhanh</string>
+    <string name="qa_voice">Giọng nói</string>
+    <string name="qa_voice_sub">Chỉ cần nói tự nhiên</string>
+    <string name="qa_type">Gõ tự nhiên</string>
+    <string name="qa_type_sub">Viết theo cách của bạn</string>
+    <string name="qa_receipt">Quét hoá đơn</string>
+    <string name="qa_receipt_sub">Chụp và để AI đọc</string>
+    <string name="qa_manual">Thủ công</string>
+    <string name="qa_manual_sub">Tự nhập chi tiết</string>
+    <string name="qa_transfer">Chuyển khoản</string>
+    <string name="qa_transfer_sub">Chuyển giữa các tài khoản</string>
+    <string name="type_naturally">Gõ tự nhiên</string>
+    <string name="type_hint">vd. Cà phê ở Blue Bottle giá 23 đô</string>
+    <string name="parse">Phân tích</string>
+
+    <!-- Voice permission -->
+    <string name="mic_title">Cho phép truy cập micro?</string>
+    <string name="mic_subtitle">Để thêm giao dịch rảnh tay, chúng tôi cần quyền truy cập micro của bạn.</string>
+    <string name="mic_b1_title">Riêng tư &amp; bảo mật</string>
+    <string name="mic_b1_sub">Giọng nói được xử lý an toàn và không bao giờ lưu dưới dạng âm thanh.</string>
+    <string name="mic_b2_title">Chỉ khi bạn muốn</string>
+    <string name="mic_b2_sub">Chúng tôi chỉ lắng nghe khi bạn chạm micro, và bạn có thể dừng bất cứ lúc nào.</string>
+    <string name="mic_b3_title">Vì sự tiện lợi của bạn</string>
+    <string name="mic_b3_sub">Thêm chi tiêu, thu nhập hay chuyển khoản trong vài giây — chỉ cần nói tự nhiên.</string>
+    <string name="allow_microphone">Cho phép micro</string>
+
+    <!-- Voice listening -->
+    <string name="listening_title">Đang lắng nghe...</string>
+    <string name="listening_subtitle">Hãy nói tự nhiên như đang trò chuyện với bạn bè.</string>
+    <string name="detected_language">Ngôn ngữ nhận diện</string>
+    <string name="listening">Đang nghe...</string>
+    <string name="speak_now">Nói ngay</string>
+    <string name="tap_to_stop">Chạm để dừng</string>
+
+    <!-- Parsed review -->
+    <string name="review_title">Đây là những gì tôi tìm thấy</string>
+    <string name="review_subtitle">Kiểm tra chi tiết và chỉnh sửa nếu cần.</string>
+    <string name="high_confidence">Độ tin cậy cao</string>
+    <string name="double_check">Vui lòng kiểm tra lại</string>
+    <string name="amount">Số tiền</string>
+    <string name="category">Danh mục</string>
+    <string name="merchant">Nơi mua</string>
+    <string name="date">Ngày</string>
+    <string name="wallet_account">Ví / Tài khoản</string>
+    <string name="paid_by">Người trả</string>
+    <string name="paid_by_me">Tôi</string>
+    <string name="split_rule">Cách chia</string>
+    <string name="recurring">Định kỳ</string>
+    <string name="repeat_transaction">Lặp lại giao dịch này</string>
+    <string name="add_note">Thêm ghi chú (tuỳ chọn)</string>
+    <string name="add_note_hint">vd. Cà phê ngon với Sarah!</string>
+    <string name="add_transaction">Thêm giao dịch</string>
+    <string name="nothing_to_review">Không có gì để xem lại</string>
+
+    <!-- Split rules -->
+    <string name="split_none">Chỉ mình tôi</string>
+    <string name="split_equal">Chia đều</string>
+    <string name="split_income_ratio">Theo tỷ lệ thu nhập</string>
+    <string name="split_fixed">Số tiền cố định</string>
+    <string name="split_percentage">Theo phần trăm</string>
+    <string name="split_custom">Tuỳ chỉnh</string>
+
+    <!-- Success -->
+    <string name="added_success">Đã thêm thành công!</string>
+    <string name="success_desc">%s tại %s\nđã được thêm vào giao dịch của bạn.</string>
+    <string name="updated_safe_to_spend">Có thể chi tiêu (đã cập nhật)</string>
+    <string name="ai_insight">Thông tin AI</string>
+    <string name="ai_insight_coffee">Bạn đã chi 86đô cho cà phê tháng này. Cao hơn 12% so với tháng trước.</string>
+    <string name="view_transactions">Xem giao dịch</string>
+    <string name="transaction_added">Đã thêm giao dịch</string>
+    <string name="undo">Hoàn tác</string>
+
+    <!-- Manual -->
+    <string name="add_transaction_title">Thêm giao dịch</string>
+    <string name="type_expense">Chi tiêu</string>
+    <string name="type_income">Thu nhập</string>
+    <string name="type_transfer">Chuyển khoản</string>
+    <string name="tap_to_edit">Chạm để sửa</string>
+    <string name="merchant_source">Nơi mua / Nguồn</string>
+    <string name="notes">Ghi chú</string>
+    <string name="save_transaction">Lưu giao dịch</string>
+
+    <!-- Budget list -->
+    <string name="budgets">Ngân sách</string>
+    <string name="budgets_subtitle">Xem tiền của bạn đi đâu và giữ đúng lộ trình.</string>
+    <string name="left_to_spend">còn có thể chi</string>
+    <string name="of_budget_used">ngân sách đã dùng</string>
+    <string name="spent">đã chi</string>
+    <string name="of_amount">trên %s</string>
+    <string name="view_insights">Xem phân tích</string>
+
+    <!-- Budget detail -->
+    <string name="overview">Tổng quan</string>
+    <string name="transactions">Giao dịch</string>
+    <string name="insights">Phân tích</string>
+    <string name="used">đã dùng %s</string>
+    <string name="spending_pace">Nhịp chi tiêu</string>
+    <string name="per_day">mỗi ngày</string>
+    <string name="avg_per_day">%s/ngày (TB)</string>
+    <string name="daily_allowance">Hạn mức mỗi ngày</string>
+    <string name="nice_work">Làm tốt lắm!</string>
+    <string name="nice_work_desc">Bạn đang thấp hơn 8% so với nhịp chi tiêu thường lệ.</string>
+    <string name="spending_over_time">Chi tiêu theo thời gian</string>
+    <string name="ai_insight_dining">Bạn đã chi ít hơn 18% cho ăn ngoài so với tháng trước. Tiếp tục nhé!</string>
+
+    <!-- Calendar -->
+    <string name="financial_calendar">Lịch tài chính</string>
+    <string name="calendar_subtitle">Tiền của bạn. Lịch của bạn.</string>
+    <string name="upcoming_this_month">Sắp tới trong tháng</string>
+    <string name="view_full_calendar">Xem toàn bộ lịch</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Thông báo</string>
+    <string name="notifications_subtitle">Luôn nắm rõ. Luôn chủ động.</string>
+    <string name="filter_all">Tất cả</string>
+    <string name="filter_alerts">Cảnh báo</string>
+    <string name="filter_updates">Cập nhật</string>
+
+    <!-- Transactions -->
+    <string name="no_transactions">Chưa có giao dịch</string>
+    <string name="add_first_expense">Thêm chi tiêu đầu tiên hoặc thử giọng nói.</string>
+    <string name="pending">Đang chờ</string>
+
+    <!-- Placeholder tabs -->
+    <string name="tab_home">Trang chủ</string>
+    <string name="tab_transactions">Giao dịch</string>
+    <string name="tab_plan">Kế hoạch</string>
+    <string name="tab_household">Gia đình</string>
+    <string name="tab_ai">AI</string>
+    <string name="tab_ai_copilot">Trợ lý AI</string>
+    <string name="placeholder_plan">Ngân sách, mục tiêu, hoá đơn, dự báo và hơn thế — sẽ có ở đây.</string>
+    <string name="placeholder_household">Không gian chung, thành viên, đóng góp và quyết toán.</string>
+    <string name="placeholder_ai">Hỏi bất cứ điều gì về tiền của bạn và nhận thao tác thông minh.</string>
+</resources>

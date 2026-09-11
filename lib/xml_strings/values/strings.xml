@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Finora</string>
+    <string name="app_tagline">Talk. Track. Plan. Live.</string>
+    <string name="brand_name">ASC Finance AI</string>
+
+    <!-- Common -->
+    <string name="continue_">Continue</string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get started</string>
+    <string name="not_now">Not now</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="see_all">See all</string>
+    <string name="add_another">Add Another</string>
+    <string name="coming_soon">Coming in the next release</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="earlier">Earlier</string>
+    <string name="optional">Optional</string>
+    <string name="unknown">Unknown</string>
+
+    <!-- Greeting -->
+    <string name="greeting_morning">Good morning</string>
+    <string name="greeting_afternoon">Good afternoon</string>
+    <string name="greeting_evening">Good evening</string>
+
+    <!-- Splash -->
+    <string name="splash_loading">Loading…</string>
+
+    <!-- Welcome -->
+    <string name="welcome_subtitle">Your AI-powered partner for a calmer, richer tomorrow.</string>
+    <string name="benefit_talk">Talk</string>
+    <string name="benefit_talk_sub">with your AI</string>
+    <string name="benefit_track">Track</string>
+    <string name="benefit_track_sub">your money</string>
+    <string name="benefit_plan">Plan</string>
+    <string name="benefit_plan_sub">for your goals</string>
+    <string name="welcome_footer">Join a global community building better money lives.</string>
+
+    <!-- Locale -->
+    <string name="locale_setup">Let\'s get you set up</string>
+    <string name="locale_title">Where are you\nand what\'s your language?</string>
+    <string name="locale_subtitle">This helps us tailor your experience, localize content, and provide relevant financial insights.</string>
+    <string name="country_region">Country / Region</string>
+    <string name="search_countries">Search countries...</string>
+    <string name="show_more_countries">Show more countries  ↓</string>
+    <string name="language">Language</string>
+
+    <!-- Currency -->
+    <string name="currency_title">What\'s your base currency?</string>
+    <string name="currency_subtitle">We\'ll use this as your primary currency for tracking, reporting and AI insights. You can add more currencies later.</string>
+    <string name="search_currencies">Search currencies...</string>
+
+    <!-- Life Mode -->
+    <string name="life_mode_title">What\'s your life mode?</string>
+    <string name="life_mode_subtitle">This helps our AI give you more relevant tips, benchmarks and plans.</string>
+    <string name="lifemode_solo_title">Solo</string>
+    <string name="lifemode_solo_sub">Just me</string>
+    <string name="lifemode_dating_title">Dating Couple</string>
+    <string name="lifemode_dating_sub">Exploring together</string>
+    <string name="lifemode_living_title">Living Together</string>
+    <string name="lifemode_living_sub">Same household</string>
+    <string name="lifemode_married_title">Married</string>
+    <string name="lifemode_married_sub">Life partners</string>
+    <string name="lifemode_child_title">With Child</string>
+    <string name="lifemode_child_sub">Parenting journey</string>
+    <string name="lifemode_parents_title">With Parents</string>
+    <string name="lifemode_parents_sub">Multi-generational</string>
+    <string name="lifemode_custom_title">Custom</string>
+    <string name="lifemode_custom_sub">Tell us your unique situation</string>
+    <string name="lifemode_solo_chip">Solo</string>
+    <string name="lifemode_dating_chip">Dating</string>
+    <string name="lifemode_living_chip">Living Together</string>
+    <string name="lifemode_married_chip">Married</string>
+    <string name="lifemode_family_chip">Family</string>
+    <string name="lifemode_custom_chip">Custom</string>
+
+    <!-- Income -->
+    <string name="income_title">Let\'s set up your income</string>
+    <string name="income_subtitle">Add your regular income sources. This helps us create a personalized plan and accurate recommendations.</string>
+    <string name="add_income_source">+  Add another income source</string>
+    <string name="total_monthly_income">Total monthly income</string>
+    <string name="income_tip">Great! A steady income gives you a strong foundation for your goals.</string>
+    <string name="income_new_source">New source</string>
+
+    <!-- Goals -->
+    <string name="goals_title">What are your goals?</string>
+    <string name="goals_subtitle">Tell us what matters most. Our AI will create a personalized plan to help you get there.</string>
+    <string name="goal_emergency">Build an emergency fund</string>
+    <string name="goal_home">Buy a home</string>
+    <string name="goal_travel">Travel the world</string>
+    <string name="goal_wealth">Grow my wealth</string>
+    <string name="goal_debt">Pay off debt</string>
+    <string name="goal_retire">Retire comfortably</string>
+    <string name="goal_other">Other goal</string>
+    <string name="smart_plan_title">Your Smart Plan Preview ✨</string>
+    <string name="smart_plan_desc">Based on your income, goals and life mode, our AI will create a personalized plan with actionable steps, monthly targets and insights.</string>
+    <string name="create_my_plan">Create My Plan</string>
+
+    <!-- Home -->
+    <string name="this_month">This Month</string>
+    <string name="budget_pulse">Budget Pulse</string>
+    <string name="on_track">On track</string>
+    <string name="under_budget">You\'re 12% under budget</string>
+    <string name="upcoming_bills">Upcoming Bills</string>
+    <string name="quick_actions">Quick Actions</string>
+    <string name="switch_life_mode">Switch Life Mode</string>
+    <string name="safe_to_spend">Safe to Spend</string>
+    <string name="safe_to_spend_shared">Safe to Spend (Shared)</string>
+    <string name="safe_to_spend_joint">Safe to Spend (Joint)</string>
+    <string name="safe_to_spend_household">Safe to Spend (Household)</string>
+    <string name="of_this_month">of %s this month</string>
+
+    <!-- Home tiles -->
+    <string name="tile_income">Income</string>
+    <string name="tile_spending">Spending</string>
+    <string name="tile_savings">Savings</string>
+    <string name="tile_expenses">Expenses</string>
+    <string name="tile_joint_spending">Joint Spending</string>
+    <string name="tile_your_share">Your Share</string>
+    <string name="tile_partner_share">Partner\'s Share</string>
+    <string name="tile_shared_savings">Shared Savings</string>
+    <string name="tile_net_worth">Net Worth</string>
+    <string name="tile_family_savings">Family Savings</string>
+
+    <!-- Home actions -->
+    <string name="action_transfer">Transfer</string>
+    <string name="action_add_expense">Add Expense</string>
+    <string name="action_set_goal">Set Goal</string>
+    <string name="action_ask_ai">Ask AI</string>
+    <string name="action_split_bill">Split Bill</string>
+    <string name="action_set_date_goal">Set Date Goal</string>
+    <string name="action_split_expense">Split Expense</string>
+    <string name="action_add_bill">Add Bill</string>
+    <string name="action_set_shared_goal">Set Shared Goal</string>
+    <string name="action_add_goal">Add Goal</string>
+    <string name="action_pay_off_debt">Pay Off Debt</string>
+    <string name="action_plan_big_purchase">Plan Big Purchase</string>
+    <string name="action_add_child_expense">Add Child Expense</string>
+    <string name="action_family_goal">Family Goal</string>
+    <string name="action_plan_education">Plan for Education</string>
+
+    <!-- Home pulse -->
+    <string name="pulse_solo_title">You\'re on track!</string>
+    <string name="pulse_solo_sub">Saving 22% of your income</string>
+    <string name="pulse_dating_title">Jordan paid last time!</string>
+    <string name="pulse_dating_sub">You paid 3 of 5 shared expenses this month</string>
+    <string name="pulse_living_title">Home feels good</string>
+    <string name="pulse_living_sub">Your spending on rent &amp; groceries is on track.</string>
+    <string name="pulse_married_title">Building the life you want</string>
+    <string name="pulse_married_sub">You\'re making great progress on your big goals.</string>
+    <string name="pulse_family_title">Investing in their tomorrow</string>
+    <string name="pulse_family_sub">Your family budget is healthy and on track.</string>
+
+    <!-- Bill names -->
+    <string name="bill_rent">Rent</string>
+    <string name="bill_phone_plan">Phone Plan</string>
+    <string name="bill_dinner_reservation">Dinner Reservation</string>
+    <string name="bill_streaming_shared">Streaming (Shared)</string>
+    <string name="bill_groceries">Groceries</string>
+    <string name="bill_mortgage">Mortgage</string>
+    <string name="bill_car_loan">Car Loan</string>
+    <string name="bill_childcare">Childcare</string>
+    <string name="bill_school_tuition">School Tuition</string>
+    <string name="bill_electricity">Electricity</string>
+    <string name="bill_internet">Internet</string>
+    <string name="bill_payday">Payday</string>
+    <string name="bill_goal_contribution">Goal Contribution</string>
+    <string name="bill_investments_goals">Investments / Goals</string>
+
+    <!-- Bill due (params) -->
+    <string name="due_tomorrow">Tomorrow</string>
+    <string name="due_in_days">Due in %s days</string>
+
+    <!-- Categories -->
+    <string name="cat_housing">Housing</string>
+    <string name="cat_food">Food &amp; Dining</string>
+    <string name="cat_transport">Transportation</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_entertainment">Entertainment</string>
+    <string name="cat_health">Health</string>
+    <string name="cat_education">Education</string>
+    <string name="cat_bills">Bills &amp; Utilities</string>
+    <string name="cat_childcare">Childcare</string>
+    <string name="cat_other">Other</string>
+    <string name="cat_salary">Salary</string>
+    <string name="cat_freelance">Freelance</string>
+    <string name="cat_investment">Investments</string>
+    <string name="cat_gift">Gift</string>
+    <string name="cat_other_income">Other</string>
+
+    <!-- Quick Add -->
+    <string name="quick_add">Quick Add</string>
+    <string name="qa_voice">Voice</string>
+    <string name="qa_voice_sub">Just say it naturally</string>
+    <string name="qa_type">Type Naturally</string>
+    <string name="qa_type_sub">Write it in your own words</string>
+    <string name="qa_receipt">Scan Receipt</string>
+    <string name="qa_receipt_sub">Snap and let AI read it</string>
+    <string name="qa_manual">Manual</string>
+    <string name="qa_manual_sub">Enter details yourself</string>
+    <string name="qa_transfer">Transfer</string>
+    <string name="qa_transfer_sub">Move between your accounts</string>
+    <string name="type_naturally">Type naturally</string>
+    <string name="type_hint">e.g. Coffee at Blue Bottle for 23 dollars</string>
+    <string name="parse">Parse</string>
+
+    <!-- Voice permission -->
+    <string name="mic_title">Allow microphone access?</string>
+    <string name="mic_subtitle">So you can add transactions hands-free, we need access to your microphone.</string>
+    <string name="mic_b1_title">Private &amp; secure</string>
+    <string name="mic_b1_sub">Your voice is processed securely and never stored as audio.</string>
+    <string name="mic_b2_title">Only when you choose</string>
+    <string name="mic_b2_sub">We only listen when you tap the mic, and you can stop anytime.</string>
+    <string name="mic_b3_title">Built for your convenience</string>
+    <string name="mic_b3_sub">Add expenses, income, or transfers in seconds — just speak naturally.</string>
+    <string name="allow_microphone">Allow Microphone</string>
+
+    <!-- Voice listening -->
+    <string name="listening_title">I\'m listening...</string>
+    <string name="listening_subtitle">Speak naturally, like you\'re talking to a friend.</string>
+    <string name="detected_language">Detected language</string>
+    <string name="listening">Listening...</string>
+    <string name="speak_now">Speak now</string>
+    <string name="tap_to_stop">Tap to stop</string>
+
+    <!-- Parsed review -->
+    <string name="review_title">Here\'s what I found</string>
+    <string name="review_subtitle">Check the details and make any changes.</string>
+    <string name="high_confidence">High confidence</string>
+    <string name="double_check">Please double-check</string>
+    <string name="amount">Amount</string>
+    <string name="category">Category</string>
+    <string name="merchant">Merchant</string>
+    <string name="date">Date</string>
+    <string name="wallet_account">Wallet / Account</string>
+    <string name="paid_by">Paid by</string>
+    <string name="paid_by_me">Me</string>
+    <string name="split_rule">Split rule</string>
+    <string name="recurring">Recurring</string>
+    <string name="repeat_transaction">Repeat this transaction</string>
+    <string name="add_note">Add a note (optional)</string>
+    <string name="add_note_hint">e.g. Great coffee with Sarah!</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="nothing_to_review">Nothing to review</string>
+
+    <!-- Split rules -->
+    <string name="split_none">Just me</string>
+    <string name="split_equal">Split equally</string>
+    <string name="split_income_ratio">By income ratio</string>
+    <string name="split_fixed">Fixed amounts</string>
+    <string name="split_percentage">By percentage</string>
+    <string name="split_custom">Custom</string>
+
+    <!-- Success -->
+    <string name="added_success">Added successfully!</string>
+    <string name="success_desc">%s at %s\nhas been added to your transactions.</string>
+    <string name="updated_safe_to_spend">Updated Safe to Spend</string>
+    <string name="ai_insight">AI Insight</string>
+    <string name="ai_insight_coffee">You\'ve spent \$86 on coffee this month. That\'s 12% higher than last month.</string>
+    <string name="view_transactions">View Transactions</string>
+    <string name="transaction_added">Transaction added</string>
+    <string name="undo">Undo</string>
+
+    <!-- Manual -->
+    <string name="add_transaction_title">Add Transaction</string>
+    <string name="type_expense">Expense</string>
+    <string name="type_income">Income</string>
+    <string name="type_transfer">Transfer</string>
+    <string name="tap_to_edit">Tap to edit</string>
+    <string name="merchant_source">Merchant / Source</string>
+    <string name="notes">Notes</string>
+    <string name="save_transaction">Save Transaction</string>
+
+    <!-- Budget list -->
+    <string name="budgets">Budgets</string>
+    <string name="budgets_subtitle">See where your money goes and stay on track.</string>
+    <string name="left_to_spend">left to spend</string>
+    <string name="of_budget_used">of budget used</string>
+    <string name="spent">spent</string>
+    <string name="of_amount">of %s</string>
+    <string name="view_insights">View Insights</string>
+
+    <!-- Budget detail -->
+    <string name="overview">Overview</string>
+    <string name="transactions">Transactions</string>
+    <string name="insights">Insights</string>
+    <string name="used">%s used</string>
+    <string name="spending_pace">Spending pace</string>
+    <string name="per_day">per day</string>
+    <string name="avg_per_day">%s/day (avg)</string>
+    <string name="daily_allowance">Daily allowance</string>
+    <string name="nice_work">Nice work!</string>
+    <string name="nice_work_desc">You\'re 8% under your typical spending pace.</string>
+    <string name="spending_over_time">Spending over time</string>
+    <string name="ai_insight_dining">You\'ve spent 18% less on dining out compared to last month. Keep it up!</string>
+
+    <!-- Calendar -->
+    <string name="financial_calendar">Financial Calendar</string>
+    <string name="calendar_subtitle">Your money. Your schedule.</string>
+    <string name="upcoming_this_month">Upcoming this month</string>
+    <string name="view_full_calendar">View Full Calendar</string>
+
+    <!-- Notifications -->
+    <string name="notifications">Notifications</string>
+    <string name="notifications_subtitle">Stay informed. Stay in control.</string>
+    <string name="filter_all">All</string>
+    <string name="filter_alerts">Alerts</string>
+    <string name="filter_updates">Updates</string>
+
+    <!-- Transactions -->
+    <string name="no_transactions">No transactions yet</string>
+    <string name="add_first_expense">Add your first expense or try voice.</string>
+    <string name="pending">Pending</string>
+
+    <!-- Placeholder tabs -->
+    <string name="tab_home">Home</string>
+    <string name="tab_transactions">Transactions</string>
+    <string name="tab_plan">Plan</string>
+    <string name="tab_household">Household</string>
+    <string name="tab_ai">AI</string>
+    <string name="tab_ai_copilot">AI Copilot</string>
+    <string name="placeholder_plan">Budgets, goals, bills, forecast and more — coming here.</string>
+    <string name="placeholder_household">Shared spaces, members, contributions and settlement.</string>
+    <string name="placeholder_ai">Ask your money anything and get smart actions.</string>
+</resources>
