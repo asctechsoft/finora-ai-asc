@@ -323,7 +323,6 @@
     <string name="tab_plan">Plan</string>
     <string name="tab_ai_copilot">AI Copilot</string>
     <string name="tab_settings">Settings</string>
-    <string name="placeholder_plan">Budgets, goals, bills, forecast and more — coming here.</string>
     <string name="placeholder_ai">Ask your money anything and get smart actions.</string>
 
     <!-- Settings -->
@@ -344,4 +343,115 @@
     <string name="settings_choose_language">Choose language</string>
     <string name="language_english">English</string>
     <string name="language_vietnamese">Tiếng Việt</string>
+
+    <!-- Plan -->
+    <string name="plan_title">Plan</string>
+    <string name="plan_subtitle">Turn dreams into reality</string>
+    <string name="plan_empty_title">You don\'t have any plan yet</string>
+    <string name="plan_empty_sub">Create a financial plan that matches your goals and the life you live.</string>
+    <string name="plan_create_new">Create a new plan</string>
+    <string name="plan_pick_type">Choose plan type</string>
+    <string name="plan_pick_type_sub">Pick the plan that fits you so Finora can suggest goals and budgets.</string>
+    <string name="plan_create_title">Create plan</string>
+    <string name="plan_step">Step %s/3</string>
+    <string name="plan_basic_info">Basic information</string>
+    <string name="plan_name">Plan name</string>
+    <string name="plan_name_hint">Family plan 2025</string>
+    <string name="plan_period">Period</string>
+    <string name="plan_pick_period">Pick a period</string>
+    <string name="plan_monthly_budget">Monthly budget</string>
+    <string name="plan_description">Description (optional)</string>
+    <string name="plan_description_hint">e.g. Manage spending and save for the kids…</string>
+    <string name="plan_common_goals">Popular goals</string>
+    <string name="plan_pick_goals">Choose goals</string>
+    <string name="plan_filter_all">All</string>
+    <string name="plan_filter_selected">Selected (%s)</string>
+    <string name="plan_filter_suggested">Suggested for you</string>
+    <string name="plan_group_common">Shared goals</string>
+    <string name="plan_group_specific">Specific goals (%s)</string>
+    <string name="plan_allocate">Budget allocation</string>
+    <string name="plan_per_month">/month</string>
+    <string name="plan_alloc_ok">The whole budget is allocated.</string>
+    <string name="plan_alloc_warning">Allocated %s% — adjust to reach 100%.</string>
+    <string name="plan_finish">Finish</string>
+    <string name="plan_review">Review plan</string>
+    <string name="plan_goal_list">Goal list</string>
+    <string name="plan_start">Start the plan</string>
+    <string name="plan_success_title">Plan created!</string>
+    <string name="plan_success_sub">You now have a clear financial roadmap. Keep it up and check in often!</string>
+    <string name="plan_success_view">View plan</string>
+    <string name="plan_success_home">Back to home</string>
+    <string name="plan_progress">Overall progress</string>
+    <string name="plan_saved">Saved</string>
+    <string name="plan_remaining">Remaining</string>
+    <string name="plan_action_stats">Stats</string>
+    <string name="plan_action_adjust">Adjust</string>
+    <string name="plan_action_add_goal">Add goal</string>
+    <string name="plan_goals">Goals</string>
+    <string name="plan_switch">Switch plan</string>
+
+    <!-- Plan types -->
+    <string name="plantype_personal_title">Personal</string>
+    <string name="plantype_personal_sub">Manage your own money and reach personal goals</string>
+    <string name="plantype_personal_plan">Personal plan</string>
+    <string name="plantype_personal_intro">Set up goals that fit your life and your style.</string>
+    <string name="plantype_personal_quote">Discipline today,\nfreedom tomorrow ✨</string>
+    <string name="plantype_couple_title">Couple</string>
+    <string name="plantype_couple_sub">Build your financial future together</string>
+    <string name="plantype_couple_plan">Couple plan</string>
+    <string name="plantype_couple_intro">Plan the money side of the life you\'re building together.</string>
+    <string name="plantype_couple_quote">Two people,\none shared dream 💛</string>
+    <string name="plantype_family_child_title">Family with young children</string>
+    <string name="plantype_family_child_sub">Manage spending and savings for you and the kids</string>
+    <string name="plantype_family_child_plan">Family plan</string>
+    <string name="plantype_family_child_intro">Manage spending, save, and prepare the best future for your family.</string>
+    <string name="plantype_family_child_quote">For a solid foundation\nfor the ones you love 💙</string>
+    <string name="plantype_family_multi_title">Multi-generation family</string>
+    <string name="plantype_family_multi_sub">Manage money for the whole extended family</string>
+    <string name="plantype_family_multi_plan">Multi-generation plan</string>
+    <string name="plantype_family_multi_intro">Balance care for parents and children in one plan.</string>
+    <string name="plantype_family_multi_quote">One home,\nevery generation cared for 🏡</string>
+    <string name="plantype_senior_title">Senior</string>
+    <string name="plantype_senior_sub">Focus on health and financial stability</string>
+    <string name="plantype_senior_plan">Senior plan</string>
+    <string name="plantype_senior_intro">Keep your money steady so you can focus on living well.</string>
+    <string name="plantype_senior_quote">Peace of mind,\nevery single day 🌿</string>
+
+    <!-- Plan goals -->
+    <string name="plangoal_daily">Daily spending</string>
+    <string name="plangoal_daily_tag">Everyday essentials</string>
+    <string name="plangoal_saving">Savings</string>
+    <string name="plangoal_saving_tag">Build your safety net</string>
+    <string name="plangoal_invest">Investing</string>
+    <string name="plangoal_invest_tag">Let your money grow</string>
+    <string name="plangoal_emergency">Emergency fund</string>
+    <string name="plangoal_emergency_tag">Ready for the unexpected</string>
+    <string name="plangoal_education">Children\'s education</string>
+    <string name="plangoal_education_tag">For your child\'s bright future</string>
+    <string name="plangoal_health">Health &amp; wellbeing</string>
+    <string name="plangoal_health_tag">Health comes first</string>
+    <string name="plangoal_house">Buy a home</string>
+    <string name="plangoal_house_tag">A place of your own</string>
+    <string name="plangoal_travel">Travel</string>
+    <string name="plangoal_travel_tag">Memories worth saving for</string>
+    <string name="plangoal_shopping">Shopping</string>
+    <string name="plangoal_shopping_tag">Room for the things you love</string>
+    <string name="plangoal_study">Learning</string>
+    <string name="plangoal_study_tag">Invest in yourself</string>
+    <string name="plangoal_wedding">Wedding</string>
+    <string name="plangoal_wedding_tag">For the big day</string>
+    <string name="plangoal_retire">Retirement</string>
+    <string name="plangoal_retire_tag">Enjoy the years ahead</string>
+
+    <!-- Goal detail -->
+    <string name="goal_detail">Goal detail</string>
+    <string name="goal_not_found">This goal is no longer available.</string>
+    <string name="goal_progress">Progress</string>
+    <string name="goal_saved">Saved</string>
+    <string name="goal_still_needed">Still needed</string>
+    <string name="goal_target">Target</string>
+    <string name="goal_deadline">Deadline</string>
+    <string name="goal_monthly_saving">Monthly saving</string>
+    <string name="goal_note">Note</string>
+    <string name="goal_deposit">Add money</string>
 </resources>

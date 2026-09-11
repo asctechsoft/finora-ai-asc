@@ -22,6 +22,16 @@ class RouteName {
   static const String manualTransaction = '/quick-add/manual';
   static const String aiCopilot = '/quick-add/ai-copilot';
 
+  // Plan flow
+  static const String planType = '/plan/type';
+  static const String planGoalSuggest = '/plan/goal-suggest';
+  static const String planBasicInfo = '/plan/basic-info';
+  static const String planGoalSelect = '/plan/goal-select';
+  static const String planBudget = '/plan/budget';
+  static const String planReview = '/plan/review';
+  static const String planSuccess = '/plan/success';
+  static const String goalDetail = '/plan/goal-detail';
+
   // Plan / detail
   static const String budgetList = '/budget';
   static const String budgetDetail = '/budget/detail';

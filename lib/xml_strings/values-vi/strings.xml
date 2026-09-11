@@ -323,7 +323,6 @@
     <string name="tab_plan">Kế hoạch</string>
     <string name="tab_ai_copilot">Trợ lý AI</string>
     <string name="tab_settings">Cài đặt</string>
-    <string name="placeholder_plan">Ngân sách, mục tiêu, hoá đơn, dự báo và hơn thế — sẽ có ở đây.</string>
     <string name="placeholder_ai">Hỏi bất cứ điều gì về tiền của bạn và nhận thao tác thông minh.</string>
 
     <!-- Settings -->
@@ -344,4 +343,115 @@
     <string name="settings_choose_language">Chọn ngôn ngữ</string>
     <string name="language_english">English</string>
     <string name="language_vietnamese">Tiếng Việt</string>
+
+    <!-- Plan -->
+    <string name="plan_title">Kế hoạch</string>
+    <string name="plan_subtitle">Biến ước mơ thành hiện thực</string>
+    <string name="plan_empty_title">Bạn chưa có kế hoạch nào</string>
+    <string name="plan_empty_sub">Hãy tạo kế hoạch tài chính phù hợp với mục tiêu và cuộc sống của bạn.</string>
+    <string name="plan_create_new">Tạo kế hoạch mới</string>
+    <string name="plan_pick_type">Chọn loại kế hoạch</string>
+    <string name="plan_pick_type_sub">Hãy chọn loại kế hoạch phù hợp với bạn để Finora gợi ý mục tiêu và ngân sách.</string>
+    <string name="plan_create_title">Tạo kế hoạch</string>
+    <string name="plan_step">Bước %s/3</string>
+    <string name="plan_basic_info">Thông tin cơ bản</string>
+    <string name="plan_name">Tên kế hoạch</string>
+    <string name="plan_name_hint">Kế hoạch gia đình 2025</string>
+    <string name="plan_period">Thời gian</string>
+    <string name="plan_pick_period">Chọn thời gian</string>
+    <string name="plan_monthly_budget">Ngân sách hàng tháng</string>
+    <string name="plan_description">Mô tả (tùy chọn)</string>
+    <string name="plan_description_hint">Ví dụ: Quản lý chi tiêu, tiết kiệm cho con…</string>
+    <string name="plan_common_goals">Các mục tiêu phổ biến</string>
+    <string name="plan_pick_goals">Chọn mục tiêu</string>
+    <string name="plan_filter_all">Tất cả</string>
+    <string name="plan_filter_selected">Đã chọn (%s)</string>
+    <string name="plan_filter_suggested">Gợi ý cho bạn</string>
+    <string name="plan_group_common">Mục tiêu chung</string>
+    <string name="plan_group_specific">Mục tiêu riêng (%s)</string>
+    <string name="plan_allocate">Phân bổ ngân sách</string>
+    <string name="plan_per_month">/tháng</string>
+    <string name="plan_alloc_ok">Đã phân bổ đủ ngân sách.</string>
+    <string name="plan_alloc_warning">Đã phân bổ %s% — điều chỉnh cho đủ 100%.</string>
+    <string name="plan_finish">Hoàn tất</string>
+    <string name="plan_review">Xem lại kế hoạch</string>
+    <string name="plan_goal_list">Danh sách mục tiêu</string>
+    <string name="plan_start">Bắt đầu kế hoạch</string>
+    <string name="plan_success_title">Tạo kế hoạch thành công!</string>
+    <string name="plan_success_sub">Giờ đây bạn đã có lộ trình tài chính rõ ràng. Hãy duy trì và theo dõi thường xuyên nhé!</string>
+    <string name="plan_success_view">Xem kế hoạch</string>
+    <string name="plan_success_home">Về trang chủ</string>
+    <string name="plan_progress">Tiến độ tổng quan</string>
+    <string name="plan_saved">Đã tích luỹ</string>
+    <string name="plan_remaining">Còn lại</string>
+    <string name="plan_action_stats">Thống kê</string>
+    <string name="plan_action_adjust">Điều chỉnh</string>
+    <string name="plan_action_add_goal">Thêm mục tiêu</string>
+    <string name="plan_goals">Mục tiêu</string>
+    <string name="plan_switch">Chuyển kế hoạch</string>
+
+    <!-- Plan types -->
+    <string name="plantype_personal_title">Cá nhân</string>
+    <string name="plantype_personal_sub">Quản lý tài chính cho bản thân, đạt mục tiêu cá nhân</string>
+    <string name="plantype_personal_plan">Kế hoạch cá nhân</string>
+    <string name="plantype_personal_intro">Thiết lập các mục tiêu phù hợp với cuộc sống và phong cách của bạn.</string>
+    <string name="plantype_personal_quote">Kỷ luật hôm nay\nTự do ngày mai ✨</string>
+    <string name="plantype_couple_title">Cặp đôi</string>
+    <string name="plantype_couple_sub">Cùng nhau xây dựng tương lai tài chính</string>
+    <string name="plantype_couple_plan">Kế hoạch cặp đôi</string>
+    <string name="plantype_couple_intro">Lên kế hoạch tài chính cho cuộc sống hai bạn đang cùng xây dựng.</string>
+    <string name="plantype_couple_quote">Hai người,\nmột giấc mơ chung 💛</string>
+    <string name="plantype_family_child_title">Hộ gia đình con nhỏ</string>
+    <string name="plantype_family_child_sub">Quản lý chi tiêu, tiết kiệm cho gia đình và con cái</string>
+    <string name="plantype_family_child_plan">Kế hoạch hộ gia đình con nhỏ</string>
+    <string name="plantype_family_child_intro">Quản lý chi tiêu, tiết kiệm và chuẩn bị tương lai tốt nhất cho gia đình bạn.</string>
+    <string name="plantype_family_child_quote">Vì một\nnền tảng vững chắc\ncho con yêu 💙</string>
+    <string name="plantype_family_multi_title">Hộ gia đình nhiều thế hệ</string>
+    <string name="plantype_family_multi_sub">Quản lý tài chính cho cả gia đình nhiều thế hệ</string>
+    <string name="plantype_family_multi_plan">Kế hoạch nhiều thế hệ</string>
+    <string name="plantype_family_multi_intro">Cân bằng việc chăm lo cho cha mẹ và con cái trong cùng một kế hoạch.</string>
+    <string name="plantype_family_multi_quote">Một mái nhà,\ntrọn vẹn mọi thế hệ 🏡</string>
+    <string name="plantype_senior_title">Người cao tuổi</string>
+    <string name="plantype_senior_sub">Tập trung vào sức khoẻ, ổn định tài chính</string>
+    <string name="plantype_senior_plan">Kế hoạch người cao tuổi</string>
+    <string name="plantype_senior_intro">Giữ tài chính ổn định để bạn an tâm tận hưởng cuộc sống.</string>
+    <string name="plantype_senior_quote">An tâm\nmỗi ngày 🌿</string>
+
+    <!-- Plan goals -->
+    <string name="plangoal_daily">Chi tiêu hàng ngày</string>
+    <string name="plangoal_daily_tag">Những nhu cầu thiết yếu</string>
+    <string name="plangoal_saving">Tiết kiệm</string>
+    <string name="plangoal_saving_tag">Xây dựng lớp đệm an toàn</string>
+    <string name="plangoal_invest">Đầu tư</string>
+    <string name="plangoal_invest_tag">Để tiền sinh lời</string>
+    <string name="plangoal_emergency">Dự phòng khẩn cấp</string>
+    <string name="plangoal_emergency_tag">Sẵn sàng cho bất ngờ</string>
+    <string name="plangoal_education">Giáo dục cho con</string>
+    <string name="plangoal_education_tag">Vì tương lai tươi sáng của con</string>
+    <string name="plangoal_health">Y tế &amp; Sức khoẻ</string>
+    <string name="plangoal_health_tag">Sức khoẻ là trên hết</string>
+    <string name="plangoal_house">Mua nhà</string>
+    <string name="plangoal_house_tag">Một tổ ấm của riêng mình</string>
+    <string name="plangoal_travel">Du lịch</string>
+    <string name="plangoal_travel_tag">Những kỷ niệm đáng để dành dụm</string>
+    <string name="plangoal_shopping">Mua sắm</string>
+    <string name="plangoal_shopping_tag">Chỗ cho những thứ bạn thích</string>
+    <string name="plangoal_study">Học tập</string>
+    <string name="plangoal_study_tag">Đầu tư cho chính mình</string>
+    <string name="plangoal_wedding">Đám cưới</string>
+    <string name="plangoal_wedding_tag">Cho ngày trọng đại</string>
+    <string name="plangoal_retire">Nghỉ hưu</string>
+    <string name="plangoal_retire_tag">An nhàn những năm tháng sau</string>
+
+    <!-- Goal detail -->
+    <string name="goal_detail">Chi tiết mục tiêu</string>
+    <string name="goal_not_found">Mục tiêu này không còn tồn tại.</string>
+    <string name="goal_progress">Tiến độ</string>
+    <string name="goal_saved">Đã tiết kiệm</string>
+    <string name="goal_still_needed">Còn thiếu</string>
+    <string name="goal_target">Mục tiêu</string>
+    <string name="goal_deadline">Thời hạn</string>
+    <string name="goal_monthly_saving">Tiết kiệm mỗi tháng</string>
+    <string name="goal_note">Ghi chú</string>
+    <string name="goal_deposit">Nạp tiền</string>
 </resources>

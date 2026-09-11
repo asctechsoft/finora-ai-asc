@@ -2,6 +2,8 @@ import '../models/data_models/app_notification.dart';
 import '../models/data_models/bill.dart';
 import '../models/data_models/goal_record.dart';
 import '../models/data_models/income_source.dart';
+import '../models/data_models/plan.dart';
+import '../models/data_models/plan_goal.dart';
 import '../models/data_models/transaction_record.dart';
 import '../models/ui_models/transaction_enums.dart';
 import '../services/storage/database_helper.dart';
@@ -87,4 +89,32 @@ class FinanceRepository {
     final rows = await _db.query(DbSchema.tableNotifications, orderBy: 'timestamp DESC');
     return rows.map(AppNotification.fromMap).toList();
   }
+
+  // ---- Plans ----
+  Future<int> addPlan(Plan p) => _db.insert(DbSchema.tablePlans, p.toMap());
+
+  Future<List<Plan>> plans() async {
+    final rows = await _db.query(DbSchema.tablePlans, orderBy: 'created_at DESC');
+    return rows.map(Plan.fromMap).toList();
+  }
+
+  Future<void> deletePlan(int planId) async {
+    await _db.delete(DbSchema.tablePlanGoals, where: 'plan_id = ?', whereArgs: [planId]);
+    await _db.delete(DbSchema.tablePlans, where: 'id = ?', whereArgs: [planId]);
+  }
+
+  Future<int> addPlanGoal(PlanGoal g) => _db.insert(DbSchema.tablePlanGoals, g.toMap());
+
+  Future<List<PlanGoal>> planGoals(int planId) async {
+    final rows = await _db.query(DbSchema.tablePlanGoals,
+        where: 'plan_id = ?', whereArgs: [planId], orderBy: 'allocation DESC');
+    return rows.map(PlanGoal.fromMap).toList();
+  }
+
+  Future<void> updatePlanGoalSaved(int goalId, double saved) => _db.update(
+        DbSchema.tablePlanGoals,
+        {'saved': saved},
+        where: 'id = ?',
+        whereArgs: [goalId],
+      );
 }

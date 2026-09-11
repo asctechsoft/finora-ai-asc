@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../values/app_colors.dart';
-import '../screen_placeholder/placeholder_tab.dart';
+import '../screen_plan/plan_screen.dart';
 import '../screen_settings/settings_screen.dart';
 import '../screen_transactions/transactions_screen.dart';
 import '../screens_quick_add/quick_add_sheet.dart';
@@ -27,14 +27,16 @@ class MainShell extends StatefulWidget {
 }
 
 class _MainShellState extends State<MainShell> {
-  int _index = 0;
+  late int _index = switch (Get.arguments) {
+    final int tab when tab >= 0 && tab < 4 => tab,
+    _ => 0,
+  };
 
-  List<Widget> get _tabs => [
-    const HomeScreen(),
-    const TransactionsScreen(),
-    PlaceholderTab(title: 'tab_plan'.tr, icon: Icons.insights_rounded,
-        message: 'placeholder_plan'.tr),
-    const SettingsScreen(),
+  List<Widget> get _tabs => const [
+    HomeScreen(),
+    TransactionsScreen(),
+    PlanScreen(),
+    SettingsScreen(),
   ];
 
   List<(IconData, String)> get _items => [

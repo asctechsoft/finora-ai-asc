@@ -15,6 +15,14 @@ import '../presentation/screens_quick_add/voice_listening_screen.dart';
 import '../presentation/screens_quick_add/parsed_review_screen.dart';
 import '../presentation/screens_quick_add/add_success_screen.dart';
 import '../presentation/screens_quick_add/manual_transaction_screen.dart';
+import '../presentation/screen_plan/goal_detail_screen.dart';
+import '../presentation/screen_plan/plan_basic_info_screen.dart';
+import '../presentation/screen_plan/plan_budget_screen.dart';
+import '../presentation/screen_plan/plan_goal_select_screen.dart';
+import '../presentation/screen_plan/plan_goal_suggest_screen.dart';
+import '../presentation/screen_plan/plan_review_screen.dart';
+import '../presentation/screen_plan/plan_success_screen.dart';
+import '../presentation/screen_plan/plan_type_screen.dart';
 import '../presentation/screen_budget/budget_list_screen.dart';
 import '../presentation/screen_budget/budget_detail_screen.dart';
 import '../presentation/screen_calendar/calendar_screen.dart';
@@ -64,6 +72,16 @@ class AppPages {
         message: 'placeholder_ai'.tr,
       ),
     ),
+
+    // Plan creation flow
+    GetPage(name: RouteName.planType, page: () => const PlanTypeScreen()),
+    GetPage(name: RouteName.planGoalSuggest, page: () => const PlanGoalSuggestScreen()),
+    GetPage(name: RouteName.planBasicInfo, page: () => const PlanBasicInfoScreen()),
+    GetPage(name: RouteName.planGoalSelect, page: () => const PlanGoalSelectScreen()),
+    GetPage(name: RouteName.planBudget, page: () => const PlanBudgetScreen()),
+    GetPage(name: RouteName.planReview, page: () => const PlanReviewScreen()),
+    GetPage(name: RouteName.planSuccess, page: () => const PlanSuccessScreen()),
+    GetPage(name: RouteName.goalDetail, page: () => const GoalDetailScreen()),
 
     // Plan / detail
     GetPage(name: RouteName.budgetList, page: () => const BudgetListScreen()),

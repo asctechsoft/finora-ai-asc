@@ -28,6 +28,15 @@ class DatabaseHelper {
         }
         await batch.commit(noResult: true);
       },
+      onUpgrade: (db, oldVersion, newVersion) async {
+        if (oldVersion < 2) {
+          final batch = db.batch();
+          for (final stmt in DbSchema.v2Creates) {
+            batch.execute(stmt);
+          }
+          await batch.commit(noResult: true);
+        }
+      },
     );
   }
 

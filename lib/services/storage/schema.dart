@@ -2,7 +2,7 @@ class DbSchema {
   DbSchema._();
 
   static const String dbName = 'finora.db';
-  static const int dbVersion = 1;
+  static const int dbVersion = 2;
 
   static const String tableTransactions = 'transactions';
   static const String tableBudgets = 'budgets';
@@ -11,6 +11,8 @@ class DbSchema {
   static const String tableIncome = 'income_sources';
   static const String tableNotifications = 'notifications';
   static const String tableWallets = 'wallets';
+  static const String tablePlans = 'plans';
+  static const String tablePlanGoals = 'plan_goals';
 
   static const String createTransactions = '''
     CREATE TABLE $tableTransactions (
@@ -104,6 +106,42 @@ class DbSchema {
     )
   ''';
 
+  static const String createPlans = '''
+    CREATE TABLE $tablePlans (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      name TEXT NOT NULL,
+      type TEXT NOT NULL DEFAULT 'personal',
+      start_date TEXT NOT NULL,
+      end_date TEXT NOT NULL,
+      monthly_budget REAL NOT NULL DEFAULT 0,
+      description TEXT NOT NULL DEFAULT '',
+      created_at TEXT NOT NULL
+    )
+  ''';
+
+  static const String createPlanGoals = '''
+    CREATE TABLE $tablePlanGoals (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      plan_id INTEGER NOT NULL,
+      goal_key TEXT NOT NULL,
+      target REAL NOT NULL DEFAULT 0,
+      saved REAL NOT NULL DEFAULT 0,
+      allocation INTEGER NOT NULL DEFAULT 0,
+      deadline TEXT,
+      note TEXT NOT NULL DEFAULT ''
+    )
+  ''';
+
+  static const String createPlanGoalsIndex =
+      'CREATE INDEX idx_plan_goals_plan ON $tablePlanGoals (plan_id)';
+
+  /// Tables added in db version 2 — also applied to existing installs on upgrade.
+  static const List<String> v2Creates = [
+    createPlans,
+    createPlanGoals,
+    createPlanGoalsIndex,
+  ];
+
   static const List<String> allCreates = [
     createTransactions,
     createTransactionsIndex,
@@ -113,5 +151,6 @@ class DbSchema {
     createIncome,
     createNotifications,
     createWallets,
+    ...v2Creates,
   ];
 }
