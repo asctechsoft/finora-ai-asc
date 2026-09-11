@@ -6,6 +6,12 @@ import '../../services/seed_service.dart';
 import '../../values/app_colors.dart';
 import '../../values/route_name.dart';
 
+const _kSplashWordmarkGradient = LinearGradient(
+  begin: Alignment.topLeft,
+  end: Alignment.bottomRight,
+  colors: [AppColors.primaryDeep, AppColors.primary, Color(0xFF0EA5E9)],
+);
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -34,36 +40,47 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.background,
-      body: Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Container(
-              width: 96,
-              height: 96,
-              decoration: BoxDecoration(
-                gradient: AppColors.primaryButton,
-                borderRadius: BorderRadius.circular(28),
-                boxShadow: AppColors.cardShadow,
-              ),
-              child: const Icon(Icons.change_history_rounded, color: Colors.white, size: 52),
+      body: Stack(
+        fit: StackFit.expand,
+        children: [
+          Image.asset('assets/images/png/img_bg_splash.png', fit: BoxFit.cover),
+          SafeArea(
+            child: Column(
+              children: [
+                const Spacer(flex: 3),
+                Image.asset('assets/images/png/img_splash.png', width: 180),
+                const SizedBox(height: 20),
+                ShaderMask(
+                  shaderCallback: (bounds) => _kSplashWordmarkGradient.createShader(bounds),
+                  child: const Text('Finora',
+                      style: TextStyle(
+                          fontSize: 46, fontWeight: FontWeight.w900, color: Colors.white)),
+                ),
+                const SizedBox(height: 8),
+                Text('app_tagline'.tr,
+                    style: const TextStyle(
+                        fontSize: 14, fontWeight: FontWeight.w600, color: AppColors.textSecondary)),
+                const Spacer(flex: 4),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 64),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(10),
+                    child: LinearProgressIndicator(
+                      minHeight: 6,
+                      backgroundColor: AppColors.divider,
+                      valueColor: const AlwaysStoppedAnimation(AppColors.primary),
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 14),
+                Text('splash_loading'.tr,
+                    style: const TextStyle(
+                        fontSize: 13, fontWeight: FontWeight.w600, color: AppColors.textTertiary)),
+                const Spacer(flex: 2),
+              ],
             ),
-            const SizedBox(height: 24),
-            const Text('ASC Finance AI',
-                style: TextStyle(
-                    fontSize: 26, fontWeight: FontWeight.w800, color: AppColors.heading)),
-            const SizedBox(height: 6),
-            Text('app_tagline'.tr,
-                style: const TextStyle(
-                    fontSize: 15, fontWeight: FontWeight.w600, color: AppColors.primary)),
-            const SizedBox(height: 40),
-            const SizedBox(
-              width: 26,
-              height: 26,
-              child: CircularProgressIndicator(strokeWidth: 2.6, color: AppColors.primary),
-            ),
-          ],
-        ),
+          ),
+        ],
       ),
     );
   }

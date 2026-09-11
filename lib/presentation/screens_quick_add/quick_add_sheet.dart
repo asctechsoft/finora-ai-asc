@@ -28,6 +28,10 @@ class QuickAddSheet {
           borderRadius: BorderRadius.vertical(top: Radius.circular(28))),
       builder: (ctx) {
         final methods = [
+          _Method(Icons.auto_awesome_rounded, AppColors.livingTogether, 'qa_ai'.tr, 'qa_ai_sub'.tr, () {
+            Navigator.pop(ctx);
+            Get.toNamed(RouteName.aiCopilot);
+          }),
           _Method(Icons.mic_rounded, AppColors.primary, 'qa_voice'.tr, 'qa_voice_sub'.tr, () {
             Navigator.pop(ctx);
             Get.toNamed(RouteName.voicePermission);

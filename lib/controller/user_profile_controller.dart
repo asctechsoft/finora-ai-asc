@@ -37,4 +37,14 @@ class UserProfileController extends GetxController {
     lifeMode.value = mode;
     PrefAssist.setString(PrefConst.lifeMode, mode.key);
   }
+
+  void setName(String value) {
+    name.value = value;
+    PrefAssist.setString(PrefConst.userName, value);
+  }
+
+  void setBaseCurrency(String code) {
+    baseCurrency.value = code;
+    PrefAssist.setString(PrefConst.baseCurrency, code);
+  }
 }

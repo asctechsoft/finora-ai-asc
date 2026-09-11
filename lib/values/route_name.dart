@@ -20,6 +20,7 @@ class RouteName {
   static const String parsedReview = '/quick-add/parsed-review';
   static const String addSuccess = '/quick-add/success';
   static const String manualTransaction = '/quick-add/manual';
+  static const String aiCopilot = '/quick-add/ai-copilot';
 
   // Plan / detail
   static const String budgetList = '/budget';

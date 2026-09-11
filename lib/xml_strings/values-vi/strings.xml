@@ -2,7 +2,7 @@
 <resources>
     <!-- App -->
     <string name="app_name">Finora</string>
-    <string name="app_tagline">Nói. Ghi. Lập kế hoạch. Sống.</string>
+    <string name="app_tagline">Tài chính đồng hành cùng cuộc sống của bạn</string>
     <string name="brand_name">ASC Finance AI</string>
 
     <!-- Common -->
@@ -203,6 +203,8 @@
     <string name="qa_manual_sub">Tự nhập chi tiết</string>
     <string name="qa_transfer">Chuyển khoản</string>
     <string name="qa_transfer_sub">Chuyển giữa các tài khoản</string>
+    <string name="qa_ai">Trợ lý AI</string>
+    <string name="qa_ai_sub">Hỏi bất cứ điều gì về tiền của bạn</string>
     <string name="type_naturally">Gõ tự nhiên</string>
     <string name="type_hint">vd. Cà phê ở Blue Bottle giá 23 đô</string>
     <string name="parse">Phân tích</string>
@@ -317,12 +319,29 @@
 
     <!-- Placeholder tabs -->
     <string name="tab_home">Trang chủ</string>
-    <string name="tab_transactions">Giao dịch</string>
+    <string name="tab_stats">Thống kê</string>
     <string name="tab_plan">Kế hoạch</string>
-    <string name="tab_household">Gia đình</string>
-    <string name="tab_ai">AI</string>
     <string name="tab_ai_copilot">Trợ lý AI</string>
+    <string name="tab_settings">Cài đặt</string>
     <string name="placeholder_plan">Ngân sách, mục tiêu, hoá đơn, dự báo và hơn thế — sẽ có ở đây.</string>
-    <string name="placeholder_household">Không gian chung, thành viên, đóng góp và quyết toán.</string>
     <string name="placeholder_ai">Hỏi bất cứ điều gì về tiền của bạn và nhận thao tác thông minh.</string>
+
+    <!-- Settings -->
+    <string name="settings_edit_name">Sửa tên</string>
+    <string name="settings_name_hint">Tên của bạn</string>
+    <string name="settings_preferences">Tuỳ chọn</string>
+    <string name="settings_life_mode">Chế độ sống</string>
+    <string name="settings_currency">Đơn vị tiền tệ</string>
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_app">Ứng dụng</string>
+    <string name="settings_notifications">Thông báo</string>
+    <string name="settings_budgets">Ngân sách</string>
+    <string name="settings_calendar">Lịch tài chính</string>
+    <string name="settings_about">Giới thiệu</string>
+    <string name="settings_app_version">Phiên bản ứng dụng</string>
+    <string name="settings_choose_life_mode">Chọn chế độ sống của bạn</string>
+    <string name="settings_choose_currency">Chọn đơn vị tiền tệ</string>
+    <string name="settings_choose_language">Chọn ngôn ngữ</string>
+    <string name="language_english">English</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
 </resources>

@@ -1,5 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../controller/onboarding_controller.dart';
+import '../presentation/screen_placeholder/placeholder_tab.dart';
 import '../presentation/screen_splash/splash_screen.dart';
 import '../presentation/screens_onboarding/welcome_screen.dart';
 import '../presentation/screens_onboarding/locale_screen.dart';
@@ -54,6 +56,14 @@ class AppPages {
     GetPage(name: RouteName.parsedReview, page: () => const ParsedReviewScreen()),
     GetPage(name: RouteName.addSuccess, page: () => const AddSuccessScreen()),
     GetPage(name: RouteName.manualTransaction, page: () => const ManualTransactionScreen()),
+    GetPage(
+      name: RouteName.aiCopilot,
+      page: () => PlaceholderTab(
+        title: 'tab_ai_copilot'.tr,
+        icon: Icons.auto_awesome_rounded,
+        message: 'placeholder_ai'.tr,
+      ),
+    ),
 
     // Plan / detail
     GetPage(name: RouteName.budgetList, page: () => const BudgetListScreen()),

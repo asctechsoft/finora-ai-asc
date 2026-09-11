@@ -4,12 +4,12 @@ import 'package:flutter/material.dart';
 class AppColors {
   AppColors._();
 
-  // Primary teal
-  static const Color primary = Color(0xFF0D9488);
-  static const Color primaryDark = Color(0xFF0F766E);
-  static const Color primaryDeep = Color(0xFF115E59);
-  static const Color primaryTint = Color(0xFFCCFBF1);
-  static const Color primaryTintSoft = Color(0xFFE6FBF6);
+  // Primary blue — matches the splash wordmark gradient
+  static const Color primary = Color(0xFF2563EB);
+  static const Color primaryDark = Color(0xFF1D4ED8);
+  static const Color primaryDeep = Color(0xFF1E3A8A);
+  static const Color primaryTint = Color(0xFFDBEAFE);
+  static const Color primaryTintSoft = Color(0xFFEFF6FF);
 
   // Text
   static const Color heading = Color(0xFF0F172A);
@@ -41,7 +41,7 @@ class AppColors {
   static const Color income = Color(0xFF10B981);
 
   // Life-mode accents
-  static const Color solo = Color(0xFF0D9488);
+  static const Color solo = Color(0xFF2563EB);
   static const Color dating = Color(0xFFEC4899);
   static const Color livingTogether = Color(0xFF0EA5E9);
   static const Color married = Color(0xFF8B5CF6);
@@ -51,13 +51,13 @@ class AppColors {
   static const LinearGradient heroGradient = LinearGradient(
     begin: Alignment.topLeft,
     end: Alignment.bottomRight,
-    colors: [Color(0xFF0F766E), Color(0xFF115E59)],
+    colors: [Color(0xFF1D4ED8), Color(0xFF1E3A8A)],
   );
 
   static const LinearGradient primaryButton = LinearGradient(
     begin: Alignment.centerLeft,
     end: Alignment.centerRight,
-    colors: [Color(0xFF0D9488), Color(0xFF0F766E)],
+    colors: [Color(0xFF2563EB), Color(0xFF1D4ED8)],
   );
 
   static List<BoxShadow> get cardShadow => [

@@ -23,6 +23,44 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128782896466:android:bda24f77c774ad59623e8b",
+        "android_client_info": {
+          "package_name": "com.asc.finora.alpha"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyS2z3YYjZiamtvHgIEqeKjy3E1COolCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128782896466:android:d17b7c5ef584e5aa623e8b",
+        "android_client_info": {
+          "package_name": "com.asc.finora.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyS2z3YYjZiamtvHgIEqeKjy3E1COolCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"

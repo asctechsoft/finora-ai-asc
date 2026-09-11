@@ -2,7 +2,7 @@
 <resources>
     <!-- App -->
     <string name="app_name">Finora</string>
-    <string name="app_tagline">Talk. Track. Plan. Live.</string>
+    <string name="app_tagline">Money that evolves with your life</string>
     <string name="brand_name">ASC Finance AI</string>
 
     <!-- Common -->
@@ -203,6 +203,8 @@
     <string name="qa_manual_sub">Enter details yourself</string>
     <string name="qa_transfer">Transfer</string>
     <string name="qa_transfer_sub">Move between your accounts</string>
+    <string name="qa_ai">AI Copilot</string>
+    <string name="qa_ai_sub">Ask your money anything</string>
     <string name="type_naturally">Type naturally</string>
     <string name="type_hint">e.g. Coffee at Blue Bottle for 23 dollars</string>
     <string name="parse">Parse</string>
@@ -317,12 +319,29 @@
 
     <!-- Placeholder tabs -->
     <string name="tab_home">Home</string>
-    <string name="tab_transactions">Transactions</string>
+    <string name="tab_stats">Transactions</string>
     <string name="tab_plan">Plan</string>
-    <string name="tab_household">Household</string>
-    <string name="tab_ai">AI</string>
     <string name="tab_ai_copilot">AI Copilot</string>
+    <string name="tab_settings">Settings</string>
     <string name="placeholder_plan">Budgets, goals, bills, forecast and more — coming here.</string>
-    <string name="placeholder_household">Shared spaces, members, contributions and settlement.</string>
     <string name="placeholder_ai">Ask your money anything and get smart actions.</string>
+
+    <!-- Settings -->
+    <string name="settings_edit_name">Edit name</string>
+    <string name="settings_name_hint">Your name</string>
+    <string name="settings_preferences">Preferences</string>
+    <string name="settings_life_mode">Life Mode</string>
+    <string name="settings_currency">Base Currency</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_app">App</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_budgets">Budgets</string>
+    <string name="settings_calendar">Financial Calendar</string>
+    <string name="settings_about">About</string>
+    <string name="settings_app_version">App Version</string>
+    <string name="settings_choose_life_mode">Choose your life mode</string>
+    <string name="settings_choose_currency">Choose base currency</string>
+    <string name="settings_choose_language">Choose language</string>
+    <string name="language_english">English</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
 </resources>
