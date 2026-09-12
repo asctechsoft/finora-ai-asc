@@ -7,8 +7,32 @@ import '../../presentation/common_components/primary_button.dart';
 import '../../values/app_colors.dart';
 import '../../values/route_name.dart';
 
-class LifeModeScreen extends StatelessWidget {
+class LifeModeScreen extends StatefulWidget {
   const LifeModeScreen({super.key});
+
+  @override
+  State<LifeModeScreen> createState() => _LifeModeScreenState();
+}
+
+class _LifeModeScreenState extends State<LifeModeScreen> {
+  final _noteFieldKey = GlobalKey();
+
+  void _selectCustom(OnboardingController c) {
+    final wasCustom = c.lifeMode.value == LifeMode.custom;
+    c.lifeMode.value = LifeMode.custom;
+    if (wasCustom) return;
+    // Wait for the Obx below to rebuild and mount the field, then scroll to it.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final noteContext = _noteFieldKey.currentContext;
+      if (noteContext == null) return;
+      Scrollable.ensureVisible(
+        noteContext,
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeOut,
+        alignment: 0.15,
+      );
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +47,7 @@ class LifeModeScreen extends StatelessWidget {
       bottom: PrimaryButton(label: 'continue_'.tr, onPressed: () => Get.toNamed(RouteName.income)),
       child: ListView(
         children: [
-          const Icon(Icons.groups_rounded, color: AppColors.primary, size: 30),
+          Image.asset('assets/images/png/img_cuoc_song.png', height: 88),
           const SizedBox(height: 12),
           Text('life_mode_title'.tr,
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800, color: AppColors.heading)),
@@ -37,7 +61,7 @@ class LifeModeScreen extends StatelessWidget {
                 physics: const NeverScrollableScrollPhysics(),
                 mainAxisSpacing: 12,
                 crossAxisSpacing: 12,
-                childAspectRatio: 1.55,
+                childAspectRatio: 1.25,
                 children: grid
                     .map((m) => _ModeCard(
                           mode: m,
@@ -50,12 +74,62 @@ class LifeModeScreen extends StatelessWidget {
           Obx(() => _ModeCard(
                 mode: LifeMode.custom,
                 selected: c.lifeMode.value == LifeMode.custom,
-                onTap: () => c.lifeMode.value = LifeMode.custom,
+                onTap: () => _selectCustom(c),
                 wide: true,
               )),
+          Obx(() => c.lifeMode.value == LifeMode.custom
+              ? Padding(
+                  key: _noteFieldKey,
+                  padding: const EdgeInsets.only(top: 12),
+                  child: _CustomNoteField(controller: c),
+                )
+              : const SizedBox.shrink()),
         ],
       ),
     );
+  }
+}
+
+class _CustomNoteField extends StatefulWidget {
+  final OnboardingController controller;
+  const _CustomNoteField({required this.controller});
+
+  @override
+  State<_CustomNoteField> createState() => _CustomNoteFieldState();
+}
+
+class _CustomNoteFieldState extends State<_CustomNoteField> {
+  late final _textController =
+      TextEditingController(text: widget.controller.customLifeModeNote.value);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 14),
+      decoration: BoxDecoration(
+        color: AppColors.card,
+        borderRadius: BorderRadius.circular(14),
+        border: Border.all(color: AppColors.divider),
+      ),
+      child: TextField(
+        controller: _textController,
+        maxLines: 3,
+        maxLength: 140,
+        onChanged: (v) => widget.controller.customLifeModeNote.value = v,
+        style: const TextStyle(fontWeight: FontWeight.w500, color: AppColors.heading),
+        decoration: InputDecoration(
+          hintText: 'lifemode_custom_hint'.tr,
+          border: InputBorder.none,
+          hintStyle: const TextStyle(color: AppColors.textTertiary, fontWeight: FontWeight.w400),
+        ),
+      ),
+    );
+  }
+
+  @override
+  void dispose() {
+    _textController.dispose();
+    super.dispose();
   }
 }
 

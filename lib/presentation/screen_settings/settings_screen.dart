@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import '../../configs/pref_const.dart';
 import '../../controller/user_profile_controller.dart';
+import '../../models/ui_models/app_language.dart';
 import '../../models/ui_models/currency_info.dart';
 import '../../models/ui_models/life_mode.dart';
 import '../../values/app_colors.dart';
@@ -67,9 +68,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   icon: Icons.language_rounded,
                   iconColor: AppColors.info,
                   title: 'settings_language'.tr,
-                  value: profile.language.value.startsWith('vi')
-                      ? 'language_vietnamese'.tr
-                      : 'language_english'.tr,
+                  value: AppLanguage.byCode(profile.language.value).label,
                   onTap: () => _pickLanguage(context, profile),
                 ),
               ]),
@@ -179,23 +178,19 @@ class _SettingsScreenState extends State<SettingsScreen> {
   }
 
   void _pickLanguage(BuildContext context, UserProfileController profile) {
-    final options = [
-      (code: 'en_US', locale: const Locale('en', 'US'), label: 'language_english'.tr),
-      (code: 'vi_VN', locale: const Locale('vi', 'VN'), label: 'language_vietnamese'.tr),
-    ];
     _showPicker(
       context,
       title: 'settings_choose_language'.tr,
-      children: options
-          .map((opt) => _PickerRow(
-                leading: const Icon(Icons.language_rounded, color: AppColors.info),
-                title: opt.label,
-                selected: profile.language.value == opt.code,
+      children: AppLanguage.all
+          .map((lang) => _PickerRow(
+                leading: Text(lang.flag, style: const TextStyle(fontSize: 20)),
+                title: lang.label,
+                selected: profile.language.value == lang.code,
                 onTap: () {
-                  profile.language.value = opt.code;
-                  PrefAssist.setString(PrefConst.language, opt.code);
-                  CommLocalize.setAppLocale(opt.locale);
-                  Get.updateLocale(opt.locale);
+                  profile.language.value = lang.code;
+                  PrefAssist.setString(PrefConst.language, lang.code);
+                  CommLocalize.setAppLocale(lang.locale);
+                  Get.updateLocale(lang.locale);
                   Navigator.pop(context);
                 },
               ))

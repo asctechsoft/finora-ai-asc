@@ -52,7 +52,7 @@ class _SplashScreenState extends State<SplashScreen> {
                 const SizedBox(height: 20),
                 ShaderMask(
                   shaderCallback: (bounds) => _kSplashWordmarkGradient.createShader(bounds),
-                  child: const Text('Finora',
+                  child: const Text('TrackFlow',
                       style: TextStyle(
                           fontSize: 46, fontWeight: FontWeight.w900, color: Colors.white)),
                 ),

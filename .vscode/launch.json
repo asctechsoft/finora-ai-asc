@@ -6,7 +6,7 @@
     "configurations": [
     
         {
-            "name": "finora-asc (NoAds Debug)",
+            "name": "trackflow (NoAds Debug)",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "name": "finora-asc (Dev Debug)",
+            "name": "trackflow (Dev Debug)",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -26,7 +26,7 @@
             ]
         },
         {
-            "name": "finora-asc (Product Debug)",
+            "name": "trackflow (Product Debug)",
             "request": "launch",
             "type": "dart",
             "program": "lib/main.dart",
@@ -36,7 +36,7 @@
             ]
         },
         {
-            "name": "finora-asc (Product Release)",
+            "name": "trackflow (Product Release)",
             "request": "launch",
             "type": "dart",
             "flutterMode": "release",

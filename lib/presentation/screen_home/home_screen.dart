@@ -85,7 +85,7 @@ class _TopBar extends StatelessWidget {
           child: const Icon(Icons.change_history_rounded, color: Colors.white, size: 18),
         ),
         const SizedBox(width: 10),
-        const Text('ASC Finance AI',
+        const Text('TrackFlow',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800, color: AppColors.heading)),
         const Spacer(),
         GestureDetector(

@@ -1,5 +1,5 @@
-name: finora
-description: "ASC Finance AI — Talk. Track. Plan. Live."
+name: trackflow
+description: "TrackFlow — Talk. Track. Plan. Live."
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -65,6 +65,20 @@ flutter:
     - assets/images/svg/
     - lib/xml_strings/values/
     - lib/xml_strings/values-vi/
+    - lib/xml_strings/values-fr/
+    - lib/xml_strings/values-it/
+    - lib/xml_strings/values-de/
+    - lib/xml_strings/values-es/
+    - lib/xml_strings/values-ru/
+    - lib/xml_strings/values-pt/
+    - lib/xml_strings/values-tr/
+    - lib/xml_strings/values-ar/
+    - lib/xml_strings/values-id/
+    - lib/xml_strings/values-fa/
+    - lib/xml_strings/values-zh-rCN/
+    - lib/xml_strings/values-zh-rTW/
+    - lib/xml_strings/values-ja/
+    - lib/xml_strings/values-ko/
 
   fonts:
     - family: PlusJakartaSans

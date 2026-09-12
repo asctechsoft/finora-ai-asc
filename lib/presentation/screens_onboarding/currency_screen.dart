@@ -19,7 +19,7 @@ class CurrencyScreen extends StatelessWidget {
       bottom: PrimaryButton(label: 'continue_'.tr, onPressed: () => Get.toNamed(RouteName.lifeMode)),
       child: ListView(
         children: [
-          const Icon(Icons.savings_rounded, color: AppColors.primary, size: 30),
+          Image.asset('assets/images/png/img_tien_te.png', height: 88),
           const SizedBox(height: 12),
           Text('currency_title'.tr,
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.w800, color: AppColors.heading)),

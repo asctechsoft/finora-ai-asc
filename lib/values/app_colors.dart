@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-/// Finora design tokens — extracted from the Figma flow.
+/// TrackFlow design tokens — extracted from the Figma flow.
 class AppColors {
   AppColors._();
 

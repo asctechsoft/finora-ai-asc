@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:finora/controller/plan_controller.dart';
-import 'package:finora/models/ui_models/plan_type.dart';
+import 'package:trackflow/controller/plan_controller.dart';
+import 'package:trackflow/models/ui_models/plan_type.dart';
 
 void main() {
   group('PlanController allocation', () {

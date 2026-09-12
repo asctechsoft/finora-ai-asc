@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App -->
-    <string name="app_name">Finora</string>
+    <string name="app_name">TrackFlow</string>
     <string name="app_tagline">Tài chính đồng hành cùng cuộc sống của bạn</string>
-    <string name="brand_name">ASC Finance AI</string>
+    <string name="brand_name">TrackFlow</string>
 
     <!-- Common -->
     <string name="continue_">Tiếp tục</string>
@@ -11,6 +11,7 @@
     <string name="get_started">Bắt đầu</string>
     <string name="not_now">Để sau</string>
     <string name="cancel">Huỷ</string>
+    <string name="delete">Xoá</string>
     <string name="save">Lưu</string>
     <string name="see_all">Xem tất cả</string>
     <string name="add_another">Thêm giao dịch khác</string>
@@ -41,12 +42,11 @@
 
     <!-- Locale -->
     <string name="locale_setup">Cùng thiết lập nào</string>
-    <string name="locale_title">Bạn ở đâu\nvà dùng ngôn ngữ nào?</string>
+    <string name="locale_title">Bạn dùng\nngôn ngữ nào?</string>
     <string name="locale_subtitle">Điều này giúp cá nhân hoá trải nghiệm, bản địa hoá nội dung và đưa ra thông tin tài chính phù hợp.</string>
-    <string name="country_region">Quốc gia / Khu vực</string>
-    <string name="search_countries">Tìm quốc gia...</string>
-    <string name="show_more_countries">Xem thêm quốc gia  ↓</string>
     <string name="language">Ngôn ngữ</string>
+    <string name="search_languages">Tìm ngôn ngữ...</string>
+    <string name="no_language_found">Không tìm thấy ngôn ngữ phù hợp.</string>
 
     <!-- Currency -->
     <string name="currency_title">Tiền tệ chính của bạn?</string>
@@ -70,6 +70,7 @@
     <string name="lifemode_parents_sub">Đa thế hệ</string>
     <string name="lifemode_custom_title">Tuỳ chỉnh</string>
     <string name="lifemode_custom_sub">Cho chúng tôi biết hoàn cảnh của bạn</string>
+    <string name="lifemode_custom_hint">Ví dụ: Sống cùng bạn cùng phòng, thu nhập freelance, chăm sóc em nhỏ…</string>
     <string name="lifemode_solo_chip">Độc thân</string>
     <string name="lifemode_dating_chip">Hẹn hò</string>
     <string name="lifemode_living_chip">Sống chung</string>
@@ -84,6 +85,9 @@
     <string name="total_monthly_income">Tổng thu nhập hàng tháng</string>
     <string name="income_tip">Tuyệt! Thu nhập ổn định là nền tảng vững chắc cho mục tiêu của bạn.</string>
     <string name="income_new_source">Nguồn mới</string>
+    <string name="edit_income_source">Sửa nguồn thu nhập</string>
+    <string name="income_source_name">Tên nguồn thu nhập</string>
+    <string name="no_income_sources">Chưa có nguồn thu nhập nào. Thêm nguồn đầu tiên bên dưới.</string>
 
     <!-- Goals -->
     <string name="goals_title">Mục tiêu của bạn là gì?</string>
@@ -341,8 +345,6 @@
     <string name="settings_choose_life_mode">Chọn chế độ sống của bạn</string>
     <string name="settings_choose_currency">Chọn đơn vị tiền tệ</string>
     <string name="settings_choose_language">Chọn ngôn ngữ</string>
-    <string name="language_english">English</string>
-    <string name="language_vietnamese">Tiếng Việt</string>
 
     <!-- Plan -->
     <string name="plan_title">Kế hoạch</string>
@@ -351,7 +353,7 @@
     <string name="plan_empty_sub">Hãy tạo kế hoạch tài chính phù hợp với mục tiêu và cuộc sống của bạn.</string>
     <string name="plan_create_new">Tạo kế hoạch mới</string>
     <string name="plan_pick_type">Chọn loại kế hoạch</string>
-    <string name="plan_pick_type_sub">Hãy chọn loại kế hoạch phù hợp với bạn để Finora gợi ý mục tiêu và ngân sách.</string>
+    <string name="plan_pick_type_sub">Hãy chọn loại kế hoạch phù hợp với bạn để TrackFlow gợi ý mục tiêu và ngân sách.</string>
     <string name="plan_create_title">Tạo kế hoạch</string>
     <string name="plan_step">Bước %s/3</string>
     <string name="plan_basic_info">Thông tin cơ bản</string>

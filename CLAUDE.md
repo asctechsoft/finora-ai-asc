@@ -4,10 +4,11 @@ Guidance for Claude Code when working in this repository.
 
 ## Project Overview
 
-**Finora (ASC Finance AI)** — Flutter personal-finance app: "Talk. Track. Plan. Live." Adaptive
-by **Life Mode** (Solo / Dating / Living Together / Married / Family), voice-first Quick Add,
-Safe-to-Spend dashboard, budgets, calendar, notifications. Package `com.asc.finora`, Firebase
-project `finora-ai-fbb76`. Built from `ASC_Finance_AI_Full_App_Flow.docx` + Figma flow
+**TrackFlow (formerly Finora / ASC Finance AI)** — Flutter personal-finance app: "Talk. Track.
+Plan. Live." Adaptive by **Life Mode** (Solo / Dating / Living Together / Married / Family),
+voice-first Quick Add, Safe-to-Spend dashboard, budgets, calendar, notifications. Package
+`com.asc.finora` (unchanged since rename — display name only), Firebase project `finora-ai-fbb76`.
+Built from `ASC_Finance_AI_Full_App_Flow.docx` (original spec filename) + Figma flow
 (`figma-luồng/`). Architecture mirrors the `D:\smart_drink` reference app.
 
 Phase 1 implements the ~25 Figma-designed screens wired with real GetX + sqflite. Remaining
@@ -45,7 +46,7 @@ utils/         money_format, date_helper, life_mode_config
 values/        app_colors, app_theme, route_name, app_pages
 ```
 
-**Database:** SQLite `finora.db` (`services/storage/schema.dart`, singleton `DatabaseHelper`).
+**Database:** SQLite `trackflow.db` (`services/storage/schema.dart`, singleton `DatabaseHelper`).
 Tables: transactions, budgets, bills, goals, income_sources, notifications, wallets.
 `SeedService.ensureSeeded()` populates demo data on first run (guarded by `PrefConst.demoSeeded`).
 

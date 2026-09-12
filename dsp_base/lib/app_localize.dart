@@ -328,7 +328,10 @@ class CommLocalize {
     for (final locale in CommLocalize.supportedLocales) {
       final localeName = locale.toString();
       final localeLanguageCode = locale.languageCode;
-      if ((localeLanguageCode != "en_US") &&
+      // English is always loaded so `fallbackLocale` can resolve keys that a
+      // locale has no translation for yet. Compared against [localeName]:
+      // [localeLanguageCode] is "en", so it never equalled "en_US".
+      if ((localeName != "en_US") &&
           (localeLanguageCode != deviceLanguageCode && localeLanguageCode != appLanguageCode)) {
         continue;
       }

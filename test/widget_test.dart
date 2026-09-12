@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:finora/values/app_colors.dart';
+import 'package:trackflow/values/app_colors.dart';
 
 void main() {
   test('Design tokens are defined', () {

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- PLACEHOLDER: copied from values/strings.xml (English) as a stand-in for Chinese (Traditional).
+     Translate the values below into Chinese (Traditional); do not change any name="..." keys. -->
 <resources>
     <!-- App -->
     <string name="app_name">TrackFlow</string>
@@ -11,7 +13,6 @@
     <string name="get_started">Get started</string>
     <string name="not_now">Not now</string>
     <string name="cancel">Cancel</string>
-    <string name="delete">Delete</string>
     <string name="save">Save</string>
     <string name="see_all">See all</string>
     <string name="add_another">Add Another</string>
@@ -70,7 +71,6 @@
     <string name="lifemode_parents_sub">Multi-generational</string>
     <string name="lifemode_custom_title">Custom</string>
     <string name="lifemode_custom_sub">Tell us your unique situation</string>
-    <string name="lifemode_custom_hint">e.g. Living with roommates, freelance income, caring for a sibling…</string>
     <string name="lifemode_solo_chip">Solo</string>
     <string name="lifemode_dating_chip">Dating</string>
     <string name="lifemode_living_chip">Living Together</string>
@@ -85,9 +85,6 @@
     <string name="total_monthly_income">Total monthly income</string>
     <string name="income_tip">Great! A steady income gives you a strong foundation for your goals.</string>
     <string name="income_new_source">New source</string>
-    <string name="edit_income_source">Edit income source</string>
-    <string name="income_source_name">Source name</string>
-    <string name="no_income_sources">No income sources yet. Add your first one below.</string>
 
     <!-- Goals -->
     <string name="goals_title">What are your goals?</string>

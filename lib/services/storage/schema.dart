@@ -1,7 +1,7 @@
 class DbSchema {
   DbSchema._();
 
-  static const String dbName = 'finora.db';
+  static const String dbName = 'trackflow.db';
   static const int dbVersion = 2;
 
   static const String tableTransactions = 'transactions';
